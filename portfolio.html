@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N. Sokhna SECK - Professional Portfolio</title>
+   
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #4a235a; /* Mauve */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #2e86c1; /* Blue */
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #3e8e41; /* Green */
+            color: white;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #2e86c1; /* Blue */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #4a235a; /* Mauve */
+        }
+        h2, h3 {
+            padding: 10px;
+            transition: background-color 0.3s ease;
+        }
+        h2:hover, h3:hover {
+            background-color: #d5d8dc; /* Light Gray */
+        }
+        .profile-pic {
+            width: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+        }
+        .about, .projects, .contact {
+            margin-bottom: 20px;
+        }
+        .projects img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>N. Sokhna SECK</h1>
+        <p>Professional Portfolio</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="container">
+        <div id="about" class="about">
+            <h2>About Me</h2>
+            <img src="profile-pic.jpg" alt="Profile Picture" class="profile-pic">
+            <p>As a Data Scientist Consultant, I leverage cutting-edge technologies and techniques for the collection, processing, and enhancement of data in various forms and volumes. At Inferensia and through consulting missions, I design, develop, and deploy various solutions to meet business needs: exploratory data analysis, statistical modeling, dashboards, deployment, and integration into applications (MLOps).</p>
+        </div>
+        <div id="skills" class="skills">
+            <h2>Skills</h2>
+            <h3>Core Skills</h3>
+            <ul>
+                <li>Python</li>
+                <li>Data Processing, Analysis, and Enhancement</li>
+                <li>MLOps</li>
+            </ul>
+            <h3>Big Data</h3>
+            <ul>
+                <li>SQL, MySQL, Postgres, MinIO, MongoDB</li>
+                <li>Selenium, Apache Spark</li>
+            </ul>
+            <h3>Machine Learning & Deep Learning</h3>
+            <ul>
+                <li>PyTorch, Scikit Learn, XGBoost, LLM APIs</li>
+            </ul>
+            <h3>DevOps / MLOps</h3>
+            <ul>
+                <li>Git, Docker, Kubernetes</li>
+                <li>GitHub Actions, GitLab CI/CD</li>
+                <li>MLFlow, Azure ML Studio</li>
+            </ul>
+            <h3>Data Visualization</h3>
+            <ul>
+                <li>Grafana, Plotly, Dash, Matplotlib, Solara, Streamlit</li>
+            </ul>
+            <h3>Languages</h3>
+            <ul>
+                <li>Python, Java, Scala</li>
+            </ul>
+            <h3>Cloud</h3>
+            <ul>
+                <li>Microsoft Azure</li>
+            </ul>
+            <h3>Project Management</h3>
+            <ul>
+                <li>Roadmap Definition</li>
+                <li>SI/Data Architecture Design</li>
+                <li>Agile Methodology (Scrum)</li>
+            </ul>
+            <h3>Languages</h3>
+            <ul>
+                <li>French, English</li>
+            </ul>
+        </div>
+        <div id="education" class="education">
+            <h2>Education</h2>
+            <p><strong>Polytech Sophia Antipolis</strong><br>
+            Engineering Degree in Computer Science<br>
+            Specialization: Data Science</p>
+        </div>
+        <div id="projects" class="projects">
+            <h2>Experiences & Projects</h2>
+            <h3>Inferensia: July 2022 – Present</h3>
+            <p><strong>Context:</strong> Inferensia innovates in Risk & Compliance management and deploys its accounting fraud detection platform as well as various modules such as AI model compliance with current laws. Internally, the work revolves around the development and optimization of fraud detection algorithms, the research and implementation of effective AI approaches, and the design and production of innovative solutions integrated into the platform.</p>
+            <p><strong>Missions:</strong></p>
+            <ul>
+                <li>Optimizing the performance of fraud detection modules using Spark.</li>
+                <li>POCs and experiments with AI approaches to enhance user experiences.</li>
+                <li>Development and integration of compliance modules into the platform: full-stack design.</li>
+            </ul>
+            <p><strong>Technologies:</strong> Python, MLOps (MLFlow, Airflow), DevOps (Docker, Kubernetes), Spark, MinIO, Angular, Flask</p>
+            
+            <h3>Relyens: July 2022 - August 2023</h3>
+            <p><strong>Context:</strong> In the context of a mission for Inferensia within a rapidly growing innovative company, the main objective is to explore and enhance data for various use cases, working on data collection, processing, and analysis, as well as designing tools for expressed needs.</p>
+            <p><strong>Missions:</strong></p>
+            <ul>
+                <li>Data collection in different formats from various departments and teams, open source data, or internal storage.</li>
+                <li>Data mining, data cleaning, data quality assessment.</li>
+                <li>Developed tools:</li>
+                <ul>
+                    <li>Data mapping according to different variables over several years.</li>
+                    <li>Search and "question answering" tool on scanned documents - Fine-tuning of the models used.</li>
+                    <li>Integration of classification/prediction functionalities with Machine Learning.</li>
+                    <li>POCs using Streamlit or Jupyter Notebook on various topics.</li>
+                </ul>
+            </ul>
+            <p><strong>Technologies:</strong> Python, Machine Learning, Deep Learning, NumPy, Pandas, Dash, Selenium, BeautifulSoup</p>
+            
+            <h3>Cetim: September 2020 - June 2022</h3>
+            <p><strong>Context:</strong> In the context of IoT data processing, visualization, and analysis, the team is responsible for defining and implementing the appropriate information system (SI) architecture. The process includes data collection, processing, and storage in h5 format with Pytables, classification, and generation of HTML files for prediction visualization using Plotly. The main objective is to define the SI and Data needs for large-scale project implementation in the Azure environment and to analyze data to enable predictive maintenance through Machine Learning techniques.</p>
+            <p><strong>Missions:</strong></p>
+            <ul>
+                <li>Defining SI/Data needs according to expressed requirements and objectives.</li>
+                <li>SI architecture design (Edge/Cloud Azure) - storage, development (MLOps/DevOps), and production (Containerization) environments in Azure.</li>
+                <li>Developing specifications and roadmap.</li>
+                <li>Monitoring service implementation.</li>
+                <li>Reporting.</li>
+            </ul>
+            <p><strong>Technologies:</strong> Python, Pytables, Plotly, Azure (Edge/Cloud), MLOps/DevOps, Containerization</p>
+            
+            <h3>Amadeus: January 2019 - June 2020</h3>
+            <p><strong>Context:</strong> The design of an anomaly detection application during the generation of flight inventory files is at the heart of the concerns. This involves log extraction and processing, deduction, and visualization of KPIs via a graphical user interface (GUI), as well as pipeline automation. Additionally, it is necessary to design and train an automatic anomaly detection model using machine learning with Scikit Learn. Finally, a full-stack design of the web application is planned.</p>
+            <p><strong>Missions:</strong></p>
+            <ul>
+                <li>Log extraction and processing.</li>
+                <li>Deduction and visualization of KPIs through a graphical user interface (GUI).</li>
+                <li>Data pipeline automation.</li>
+                <li>Design and training of an automatic anomaly detection model using machine learning with Scikit Learn.</li>
+                <li>Full-stack web application design.</li>
+            </ul>
+            <p><strong>Technologies:</strong> Scikit Learn, Python, C++, Full-stack Web Development</p>
+            
+            <h3>CNRS: April 2018 - October 2018</h3>
+            <p><strong>Context:</strong> In the context of editing a platform for modeling and editing a gene network, it is necessary to refactor and integrate tools. This involves reading and translating network description files into objects, as well as integrating them with the platform's Java software.</p>
+            <p><strong>Missions:</strong></p>
+            <ul>
+                <li>Reading and translating network description files into objects.</li>
+                <li>Integrating with the platform's Java software.</li>
+            </ul>
+            <p><strong>Technologies:</strong> Java, Bioinformatics</p>
+        </div>
+        <div id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>Email: nso.seck@gmailk.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/soseck" target="_blank">linkedin.com/in/nsokhnaseck</a></p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 N. Sokhna SECK. All rights reserved.</p>
+    </footer>
+</body>
+</html>
